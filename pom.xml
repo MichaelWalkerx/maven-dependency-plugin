@@ -26,7 +26,7 @@ under the License.
     <artifactId>maven-plugins</artifactId>
     <groupId>org.apache.maven.plugins</groupId>
     <version>35</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <artifactId>maven-dependency-plugin</artifactId>
@@ -89,7 +89,7 @@ under the License.
   </contributors>
 
   <properties>
-    <mavenVersion>3.1.1</mavenVersion>
+    <mavenVersion>3.8.1</mavenVersion>
     <jettyVersion>9.4.45.v20220203</jettyVersion>
     <pluginTestingVersion>3.1.0</pluginTestingVersion>
     <javaVersion>8</javaVersion>
@@ -472,7 +472,7 @@ under the License.
                   <source>src/test/resources/m2repo</source>
                 </mockRepo>
                  -->
-                <proxyRepo />
+                <proxyRepo/>
               </repositories>
             </configuration>
           </plugin>
